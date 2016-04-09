@@ -32,6 +32,8 @@ def askUserChoice():
     if userSticks > 4 or userSticks < 1:
            userSticks = int(input("Please enter a number between 1-4 "))
 
+     return userSticks
+
 def subtractSticks( number ):
     global sticks 
     
