@@ -15,4 +15,4 @@ def computeMinimumPayment( balance ):
     elif percentage < 10:
         return 10
     else:
-        return percentag
+        return percentage
