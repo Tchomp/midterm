@@ -52,5 +52,5 @@ def subtractSticks( number ):
         return False
     
 def determineComputerChoice():
-     return (random.randint(1,4)
+     return (random.randint(1,4))
     # TODO: write code inside this function that returns an integer between 1 and 4, random chosen by the computer
