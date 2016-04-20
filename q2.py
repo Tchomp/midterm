@@ -27,10 +27,10 @@ def askUserChoice():
     # 1. Asks the user to enter their input (between 1 and 4)
     # 2. Checks that the user's input is valid. If it's not valid (if it's not between 1 and 4), then ask the user to re-enter their input.
     # 3. Once the user enters a valid input, return that input as an integer.
-      userSticks = int(input("How many sticks would you like to pick up? (1-4): "))    
+userSticks = int(input("How many sticks would you like to pick up? (1-4): "))    
 
-    if userSticks > 4 or userSticks < 1:
-           userSticks = int(input("Please enter a number between 1-4 "))
+if userSticks > 4 or userSticks < 1:
+    userSticks = int(input("Please enter a number between 1-4 "))
 
      return userSticks
 
